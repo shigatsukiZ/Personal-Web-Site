@@ -106,7 +106,9 @@ theme: shoka
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/shigatsukiZ/hexo-site.git
+  branch: master
 
 algolia:
   appId: "Z7A3XW4R2I"
